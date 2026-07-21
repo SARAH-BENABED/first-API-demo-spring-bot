@@ -21,6 +21,10 @@ public class AuthController {
         this.managerRepo = managerRepo ;
         this.jwtService = jwtService;
     }
+    @GetMapping("/hello")
+    public String hello() {
+        return "Backend is running!";
+    }
 
     @PostMapping("/register")
     public Manager register(@RequestBody Manager manager) {
