@@ -1,25 +1,25 @@
 # Patient management system - backend 
 
 ## Description 
-   this is the bakcend of a patient management system built using SPRING BOT - JAVA 
-it provides REST APIs for managing patients data ..... it also supports multiple users (JWT authentication and authorization)
+   1.this is the bakcend of a patient management system built using SPRING BOT - JAVA 
+   2.it provides REST APIs for managing patients data ..... it also supports multiple users (JWT authentication and          authorization)
 
 ## Features 
-   user authentication (login and register)
-   JWT-based authorization 
-   add patient 
-   update patient
-   delete patient
-   view patients 
-   add medical record 
-   delelte medical record 
-   error handling (wrong password .... email already exists ) 
+   1.user authentication (login and register) 
+   2.JWT-based authorization  
+   3.add patient  
+   4.update patient 
+   5.delete patient
+   6.view patients 
+   7.add medical record 
+   8.delelte medical record 
+   9.error handling (wrong password .... email already exists ) 
 
 ## Technologies used 
-   java 
-   spring bot
-   JWT (json web token)
-   MySQL data base 
+   1.java 
+   2.spring bot
+   3.JWT (json web token)
+   4.MySQL data base 
 
 ## secure API endpoints 
 
