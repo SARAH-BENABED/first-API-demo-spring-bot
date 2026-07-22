@@ -8,11 +8,13 @@ import io.jsonwebtoken.SignatureAlgorithm ;
 import java.util.Date ;
 
 import org.springframework.stereotype.Service ;
+import org.springframework.beans.factory.annotation.Value ;
 
 @Service
 public class JwtService {
 
-    private final String SECRET = "mysecretkeyissosecretthatyoucannotevenguessit" ;
+    @Value("${jwt.secret}")
+    private String SECRET  ;
 
     private Key getKey() {
         return Keys.hmacShaKeyFor(SECRET.getBytes()) ;
